@@ -14,4 +14,4 @@ $(OUTFILE): $(OBJS)
 	g++ $(OBJS) -o $(OUTFILE)
 
 clean:
-rm -f *.o $(OUTFILE)
+	rm -f *.o $(OUTFILE)
